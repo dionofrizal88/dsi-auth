@@ -14,6 +14,7 @@ Hi, this is `general guidance` for run the `auth` service:
 - [Requirements](#requirements)
 - [Docker setup](#docker-setup)
 - [Project setup](#project-setup)
+- [Testing](#testing)
 - [Explore](#explore)
 
 ## 🏃 Getting Started
@@ -57,6 +58,13 @@ make serve
 ```
 
 After the project running, it will run the auto migration to create table `users`.
+
+### Testing
+On this project already have unit testing. Make sure your already have `dsi_auth_test` and container postgres and redis is up.
+You can exec this command:
+```
+make test-coverage
+```
 
 ### Explore
 You can explore the API from my postman collection. Thank you for read me
