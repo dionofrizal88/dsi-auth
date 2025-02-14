@@ -1,0 +1,15 @@
+{
+    "APP_ENV": "local",
+    "APP_NAME": "auth",
+    "APP_PORT": ":8081",
+    "DB_USERNAME" : "admin",
+    "DB_PASSWORD" : "secret",
+    "DB_PORT" : "54320",
+    "DB_HOST" : "127.0.0.1",
+    "DB_NAME" : "dsi_auth",
+    "TEST_DB_NAME" : "dsi_auth_test",
+    "REDIS_HOST" : "127.0.0.1",
+    "REDIS_PORT" : "63790",
+    "REDIS_DB": 0,
+    "APP_SECRET": "VqTKHzQ8WbsXAxozBrYeKcZk5vCRIj7kxUPXsoSv9Y7JhsA2LSiDhNEPTfB1dCyy9FvB3Usws9hF4hivimGmYxdam9E7qDj8K9eLtiJowIWWokIgHMKvsTMXOZvuwaGxAgam2Qm7AO9yOXmneuzYfsZtceTXgOokeKXmstnlTB80GaxkNrTwhhPK4IFN2zTNqrxfaRFAtsvHXzuCQg5Z23vuiEwt2nxCHdnUa71xZ2zDmAjNced9UZNtNJMjCRgf"
+}
