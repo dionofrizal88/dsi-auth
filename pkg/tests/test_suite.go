@@ -40,7 +40,7 @@ func InitTestSuite() *TestSuite {
 		panic(errAutoReset)
 	}
 
-	time.Sleep(3 * time.Second)
+	time.Sleep(4 * time.Second)
 
 	// Auto Migrate
 	errAutoMigrate := entityRegistry.AutoMigrate(dbConnection)

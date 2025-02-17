@@ -193,8 +193,8 @@ func TestControllerUser(t *testing.T) {
 			errRequestRecoveryUser1 := userController.RequestRecovery(c3)
 
 			assert.NoError(t, errRequestRecoveryUser1)
-			assert.Equal(t, http.StatusOK, rec3.Code)
-			assert.Contains(t, rec3.Body.String(), "Success")
+			assert.Equal(t, http.StatusAccepted, rec3.Code)
+			assert.Contains(t, rec3.Body.String(), "Accepted")
 		})
 	})
 

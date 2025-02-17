@@ -210,8 +210,8 @@ func (co *Controller) RequestRecovery(c echo.Context) error {
 
 	// send access token into email
 
-	return c.JSON(http.StatusOK, Response{
-		Message: "Success request recovery",
+	return c.JSON(http.StatusAccepted, Response{
+		Message: "Accepted request recovery",
 		Data:    nil,
 		Meta:    nil,
 	})
